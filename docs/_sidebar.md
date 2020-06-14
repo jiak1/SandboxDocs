@@ -6,3 +6,4 @@
 
 - World Generation
   - [Structures](structures.md)
+  - [Resources](resources.md)

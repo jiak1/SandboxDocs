@@ -15,9 +15,11 @@
       name: 'Sandbox Game',
       loadSidebar: true,
       subMaxLevel:4,
+      auto2top: true,
+      notFoundPage: true,
       search: {
           maxAge: 86400000, // Expiration time, the default one day
-          paths: [], // or 'auto'
+          paths: [],
           placeholder: 'Type to search',
 
           // Localization
@@ -41,7 +43,7 @@
 
           // To avoid search index collision
           // between multiple websites under the same domain
-          namespace: 'website-1',
+          namespace: 'sandboxgame-1',
     }
     }
   </script>
