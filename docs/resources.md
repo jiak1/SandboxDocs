@@ -1,6 +1,18 @@
-# Spawning Resources
-To spawn a resource you need to do the following:
+# Resources
+Resources are the name for Tiles on layers 1 and 2 (those that aren't the base biome layer).
 
+#xml
+
+To add a reosurce xml file to the list of files loaded by the game, place it in the games Resources\WorldGeneration file, and add it to the <Files> tag in Layer1Header.xml
+*Note that the order in Layer1Header.xml determines the order resources are spawned.*
+
+Each resource must have an eclosing <Tile> tag, and exist within a <ResourceList> tag.
+
+|-----|--------------|-----------------------------------| 
+|Tag  | Variable type|Description		                 |
+|-----|--------------|-----------------------------------| 
+|<id> |string		 | The id of the tile, must be unique|
+|-----|--------------|-----------------------------------| 
 ``` prolog
 <Resource>
 <ID>2</ID>
