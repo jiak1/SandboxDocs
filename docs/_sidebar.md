@@ -5,5 +5,7 @@
   - [Installing The Game](installing.md)
 
 - World Generation
-  - [Structures](structures.md)
   - [Resources](resources.md)
+  - [Structures](structures.md)
+
+  
