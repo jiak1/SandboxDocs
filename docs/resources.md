@@ -73,10 +73,15 @@ If you want the resource to spawn naturally in the world, inclide a <SpawnInfo> 
 	</tr>
 </table>
 
-``` prolog
-<Resource>
-<ID>2</ID>
-<Name>Iron Ore</Name>
-<SpawnChance>0.5</SpawnChance>
-</Resource>
-```
+Example resource
+
+```<Tile>
+      <id>2</id>
+      <Name>Iron Ore</Name>
+      <FileName>IronOre</FileName>
+      <SpawnInfo>
+        <Frequency>0.9</Frequency>
+        <Size>1</Size>
+        <SpawnRate>0.3</SpawnRate>
+      </SpawnInfo>
+    </Tile>```
