@@ -8,11 +8,14 @@ To add a reosurce xml file to the list of files loaded by the game, place it in 
 
 Each resource must have an eclosing <Tile> tag, and exist within a <ResourceList> tag.
 
-|-----|--------------|-----------------------------------| 
-|Tag  | Variable type|Description		                 |
-|-----|--------------|-----------------------------------| 
-|<id> |string		 | The id of the tile, must be unique|
-|-----|--------------|-----------------------------------| 
+<table>
+	<tr>
+	<td>tag</td>
+	<td>type</td>
+	<td>description</rd>
+	</tr>
+</table>
+
 ``` prolog
 <Resource>
 <ID>2</ID>
