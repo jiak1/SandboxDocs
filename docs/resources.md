@@ -11,7 +11,7 @@ Each resource must have an enclosing `<Tile>` tag, and exist within a `<Resource
 <table>
 	<tr>
 		<td>Tag</td>
-		<td>Variable type</td>
+		<td>Variable Type</td>
 		<td>Description</rd>
 	</tr>
 	<tr>
@@ -32,7 +32,7 @@ If you want the resource to spawn naturally in the world, include a `<SpawnInfo>
 <table>
 	<tr>
 		<td>Tag</td>
-		<td>Variable type</td>
+		<td>Variable Type</td>
 		<td>Description</rd>
 	</tr>
 	<tr>
