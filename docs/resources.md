@@ -3,37 +3,37 @@ Resources are the name for Tiles on layers 1 and 2 (those that aren't the base b
 
 # XML
 
-To add a resource xml file to the list of files loaded by the game, place it in the games Resources\WorldGeneration file, and add it to the <Files> tag in Layer1Header.xml
+To add a resource xml file to the list of files loaded by the game, place it in the games `Resources\WorldGeneration` file, and add it to the `<Files>` tag in `Layer1Header.xml`
 !> Remember: The order in *Layer1Header.xml* determines the order resources are spawned.
 
-Each resource must have an eclosing <Tile> tag, and exist within a <ResourceList> tag.
+Each resource must have an enclosing `<Tile>` tag, and exist within a `<ResourceList>` tag.
 
 <table>
 	<tr>
-		<td>tag</td>
-		<td>variable type</td>
-		<td>description</rd>
+		<td>Tag</td>
+		<td>Variable type</td>
+		<td>Description</rd>
 	</tr>
 	<tr>
-		<td>id</td>
-		<td>string</td>
+		<td>ID</td>
+		<td>String</td>
 		<td>Name and unique id of the tile, must be unique</td>
 	</tr>
 	<tr>
 		<td>FileName</td>
-		<td>string</td>
+		<td>String</td>
 		<td>The name of the file containing the tile itself. 
-		The file must be in the Resources\WorldGeneration\Tiles folder</td>
+		The file must be in the `Resources\WorldGeneration\Tiles` folder</td>
 	</tr>
 </table>
 
-If you want the resource to spawn naturally in the world, include a <SpawnInfo> tag. All tags in the table below should be included within the <SpawnInfo> tag and are all optional.
+If you want the resource to spawn naturally in the world, include a `<SpawnInfo>` tag. All tags in the table below should be included within the `<SpawnInfo>` tag and are all optional.
 
 <table>
 	<tr>
-		<td>tag</td>
-		<td>variable type</td>
-		<td>description</rd>
+		<td>Tag</td>
+		<td>Variable type</td>
+		<td>Description</rd>
 	</tr>
 	<tr>
 		<td>Frequency</td>
@@ -52,9 +52,9 @@ If you want the resource to spawn naturally in the world, include a <SpawnInfo> 
 	</tr>
 	<tr>
 		<td>UsePerlin</td>
-		<td>bool</td>
+		<td>Bool</td>
 		<td>Use perlin noise insetad of the normal cellular noise for generating this resource. Overriden by SingleInstance
-		*Note that PerlinNoise will often result in decreased spawn rate and size compared to cellular noise*</td>
+		<b>Note that PerlinNoise will often result in decreased spawn rate and size compared to cellular noise</b></td>
 	</tr>
 	<tr>
 		<td>SingleInstance</td>
