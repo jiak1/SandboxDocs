@@ -25,7 +25,8 @@ To spawn a resource as a structure, add the <StructureInfo> tag which must conta
 
 Example StructureInfo:
 
-```<StructureInfo>
+``` prolog
+     <StructureInfo>
         <StructureSize>6, 6</StructureSize>
         <StructureTiles>
           1, 1, 1, 1, 1, 1
@@ -35,4 +36,5 @@ Example StructureInfo:
           1, 23, 2, 2, 23, 1
           1, 1, 1, 1, 1, 1
         </StructureTiles>
-      </StructureInfo>```
+      </StructureInfo>
+ ```
