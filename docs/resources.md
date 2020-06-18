@@ -73,7 +73,7 @@ If you want the resource to spawn naturally in the world, inclide a <SpawnInfo> 
 	</tr>
 </table>
 
-Example resource
+## Resource Tile
 
 ``` prolog
 <Tile>
