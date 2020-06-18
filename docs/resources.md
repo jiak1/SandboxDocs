@@ -54,8 +54,7 @@ If you want the resource to spawn naturally in the world, include a `<SpawnInfo>
 	<tr>
 		<td>UsePerlin</td>
 		<td>Bool</td>
-		<td>Use perlin noise insetad of the normal cellular noise for generating this resource. Overriden by SingleInstance
-		<b>Note that PerlinNoise will often result in decreased spawn rate and size compared to cellular noise</b></td>
+		<td>Use perlin noise insetad of the normal cellular noise for generating this resource. Overriden by SingleInstance. <b>Note that PerlinNoise will often result in decreased spawn rate and size compared to cellular noise</b></td>
 	</tr>
 	<tr>
 		<td>SingleInstance</td>
