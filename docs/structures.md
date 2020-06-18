@@ -26,15 +26,15 @@ To spawn a resource as a structure, add the <StructureInfo> tag which must conta
 Example StructureInfo:
 
 ``` prolog
-     <StructureInfo>
-        <StructureSize>6, 6</StructureSize>
-        <StructureTiles>
-          1, 1, 1, 1, 1, 1
-          1, 23, 2, 2, 23, 1
-          1, 2, 5, 5, 2, 1
-          1, 2, 5, 5, 2, 1
-          1, 23, 2, 2, 23, 1
-          1, 1, 1, 1, 1, 1
-        </StructureTiles>
-      </StructureInfo>
+<StructureInfo>
+   <StructureSize>6, 6</StructureSize>
+   <StructureTiles>
+     1, 1, 1, 1, 1, 1
+     1, 23, 2, 2, 23, 1
+     1, 2, 5, 5, 2, 1
+     1, 2, 5, 5, 2, 1
+     1, 23, 2, 2, 23, 1
+     1, 1, 1, 1, 1, 1
+   </StructureTiles>
+ </StructureInfo>
  ```
