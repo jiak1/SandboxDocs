@@ -75,7 +75,8 @@ If you want the resource to spawn naturally in the world, inclide a <SpawnInfo> 
 
 Example resource
 
-```<Tile>
+``` prolog
+    <Tile>
       <id>2</id>
       <Name>Iron Ore</Name>
       <FileName>IronOre</FileName>
@@ -84,4 +85,5 @@ Example resource
         <Size>1</Size>
         <SpawnRate>0.3</SpawnRate>
       </SpawnInfo>
-    </Tile>```
+    </Tile>
+    ```
