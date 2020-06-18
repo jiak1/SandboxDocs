@@ -24,7 +24,7 @@ Each resource must have an enclosing `<Tile>` tag, and exist within a `<Resource
 		<td>FileName</td>
 		<td>String</td>
 		<td>The name of the file containing the tile itself. 
-		The file must be in the ```Resources\WorldGeneration\Tiles``` folder</td>
+		The file must be in the [Resources\WorldGeneration\Tiles](worldgenfiles) folder</td>
 	</tr>
 </table>
 
