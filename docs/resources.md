@@ -5,7 +5,7 @@ Resources are the name for Tiles on layers 1 and 2 (those that aren't the base b
 
 To add a resource xml file to the list of files loaded by the game, place it in the games ```Resources\WorldGeneration``` file, and add it to the `<Files>` tag in ```Layer1Header.xml```
 
-!> Remember: The order in ```Layer1Header.xml``` determines the order resources are spawned.
+!> Remember the order in ```Layer1Header.xml``` determines the order resources are spawned.
 
 Each resource must have an enclosing `<Tile>` tag, and exist within a `<ResourceList>` tag.
 
