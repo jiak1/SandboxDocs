@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
 </head>
 <body>
   <div id="app"></div>
@@ -45,6 +46,12 @@
           // To avoid search index collision
           // between multiple websites under the same domain
           namespace: 'sandboxgame-1',
+          pagination: {
+              previousText: 'Previous',
+              nextText: 'Next',
+              crossChapter: true,
+              crossChapterText: true,
+            },
     }
     }
   </script>
@@ -55,6 +62,8 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-csharp.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-prolog.min.js"></script><!-- XML is called prolog -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
   <script>
       if (typeof navigator.serviceWorker !== 'undefined') {
         navigator.serviceWorker.register('sw.js')
