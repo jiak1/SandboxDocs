@@ -23,7 +23,7 @@ To spawn a resource as a structure, add the <StructureInfo> tag which must conta
 </table>
 
 
-## Example StructureInfo:
+## StructureInfo
 
 ``` prolog
 <StructureInfo>
