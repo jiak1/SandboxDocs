@@ -6,9 +6,9 @@ To spawn a resource as a structure, add the <StructureInfo> tag which must conta
 
 <table>
 	<tr>
-		<td>tag</td>
-		<td>variable type</td>
-		<td>description</rd>
+		<td>Tag</td>
+		<td>Variable Type</td>
+		<td>Description</rd>
 	</tr>
 	<tr>
 		<td>StructureSize</td>
@@ -17,7 +17,7 @@ To spawn a resource as a structure, add the <StructureInfo> tag which must conta
 	</tr>
 	<tr>
 		<td>StructureTiles</td>
-		<td>string array</td>
+		<td>String Array</td>
 		<td>The id's of the tiles in the structure in order. Use commas to seperate columns, and NewLines to seperate rows.</td>
 	</tr>
 </table>
