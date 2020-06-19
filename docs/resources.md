@@ -71,6 +71,11 @@ If you want the resource to spawn naturally in the world, include a `<SpawnInfo>
 		<td>List, String</td>
 		<td>Names of all the biomes this resource should spawn in. Resource will spawn in all biomes if this tag is not present.</td>
 	</tr>
+	<tr>
+		<td>FillAllLayers</td>
+		<td>bool</td>
+		<td>If true on a layer 1 resource, layer 2 resources won't spawn on top of it</td>
+	</tr>
 </table>
 
 ## Resource Tile
