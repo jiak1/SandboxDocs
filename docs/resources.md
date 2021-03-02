@@ -1,7 +1,17 @@
 # Resources
-Resources are the name for Tiles on layers 1 and 2 (those that aren't the base biome layer).
+Resources are the name for items & blocks.
 
-# XML
+# Base Resource
+
+``` csharp
+using Modding.Models;
+
+    class NewResource : BaseResource
+    {
+        public override string name { get { return "new_resource"; } }
+    }
+
+```
 
 To add a resource xml file to the list of files loaded by the game, place it in the games [Resources\WorldGeneration](worldgenfiles) file, and add it to the `<Files>` tag in [Layer1Header.xml](worldgenfiles)
 
